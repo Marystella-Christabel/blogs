@@ -1,0 +1,346 @@
+.post-details-page {
+    padding-bottom: var(--spacing-2xl);
+    background-color: var(--primary-black);
+}
+
+.post-header {
+    padding-top: var(--spacing-2xl);
+    padding-bottom: var(--spacing-lg);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    line-height: 1.2;
+    margin-bottom: var(--spacing-lg);
+}
+
+.post-meta {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: var(--spacing-md);
+}
+
+.post-avatar {
+    width: 56px;
+    height: 56px;
+    border-color: var(--gold);
+}
+
+.author-name {
+    font-size: var(--font-md);
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.meta-data {
+    font-size: var(--font-sm);
+    color: var(--text-muted);
+    margin-top: 4px;
+}
+
+.btn-icon.circle {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--surface-light);
+    color: var(--text-muted);
+    border: 1px solid var(--border-color);
+}
+
+.btn-icon.circle:hover {
+    color: var(--gold);
+    border-color: var(--gold);
+}
+
+.post-hero-image {
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+    margin-bottom: var(--spacing-2xl);
+    background-color: var(--surface);
+}
+
+.post-hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post-content {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-xl);
+}
+
+.post-content h2 {
+    font-size: 2rem;
+    color: var(--text-primary);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.post-content h3 {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.post-content p {
+    margin-bottom: 1.5rem;
+}
+
+.post-content ul {
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+}
+
+.post-content li {
+    margin-bottom: 0.5rem;
+}
+
+.post-content blockquote {
+    border-left: 4px solid var(--gold);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    font-size: 1.25rem;
+    font-style: italic;
+    color: var(--text-secondary);
+    background: var(--gold-muted);
+    border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0;
+}
+
+.post-content code {
+    background-color: var(--surface-light);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.9em;
+    color: var(--gold);
+}
+
+.post-tags {
+    margin-bottom: var(--spacing-2xl);
+}
+
+.engagement-bar {
+    padding: var(--spacing-md) 0;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: var(--spacing-2xl);
+}
+
+.action-btn.liked {
+    color: var(--danger);
+}
+
+.action-btn.liked .filled {
+    fill: var(--danger);
+    color: var(--danger);
+}
+
+.author-bio-box {
+    padding: var(--spacing-xl);
+    margin-bottom: var(--spacing-2xl);
+    background: linear-gradient(135deg, var(--surface) 0%, var(--surface-light) 100%);
+    border-color: var(--border-light);
+}
+
+.large-avatar {
+    width: 80px;
+    height: 80px;
+    border-color: var(--gold);
+}
+
+.author-box-name {
+    font-size: var(--font-lg);
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.author-box-desc {
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-md);
+}
+
+.btn-sm-details {
+    padding: var(--spacing-xs) var(--spacing-md);
+    font-size: var(--font-sm);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .post-title {
+        font-size: 2rem;
+    }
+
+    .post-hero-image {
+        max-height: 350px;
+    }
+
+    .post-header {
+        padding-top: var(--spacing-lg);
+    }
+
+    .post-content {
+        font-size: 1rem;
+    }
+
+    .post-content h2 {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .post-content h3 {
+        font-size: 1.25rem;
+        margin-top: 1.25rem;
+    }
+
+    .post-content blockquote {
+        font-size: 1rem;
+        padding: 1rem;
+        margin: 1.5rem 0;
+    }
+
+    .author-bio-box {
+        flex-direction: column;
+        text-align: center;
+        padding: var(--spacing-lg);
+    }
+
+    .large-avatar {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+@media (max-width: 480px) {
+    .post-title {
+        font-size: 1.5rem;
+        margin-bottom: var(--spacing-md);
+    }
+
+    .post-header {
+        padding-top: var(--spacing-md);
+        padding-bottom: var(--spacing-sm);
+    }
+
+    .post-hero-image {
+        max-height: 250px;
+        margin-bottom: var(--spacing-lg);
+    }
+
+    .post-meta {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+        align-items: flex-start;
+    }
+
+    .post-actions {
+        align-self: flex-start;
+    }
+
+    .post-avatar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .author-name {
+        font-size: var(--font-sm);
+    }
+
+    .meta-data {
+        font-size: var(--font-xs);
+    }
+
+    .post-content {
+        font-size: var(--font-sm);
+        line-height: 1.7;
+    }
+
+    .post-content h2 {
+        font-size: 1.25rem;
+    }
+
+    .post-content h3 {
+        font-size: 1.1rem;
+    }
+
+    .post-content blockquote {
+        font-size: var(--font-sm);
+        padding: var(--spacing-sm);
+    }
+
+    .post-content ul {
+        padding-left: 1.25rem;
+    }
+
+    .post-tags {
+        margin-bottom: var(--spacing-lg);
+    }
+
+    .engagement-bar {
+        margin-bottom: var(--spacing-lg);
+    }
+
+    .action-btn {
+        font-size: var(--font-xs);
+    }
+
+    .author-bio-box {
+        padding: var(--spacing-md);
+        margin-bottom: var(--spacing-lg);
+        gap: var(--spacing-sm);
+    }
+
+    .large-avatar {
+        width: 48px;
+        height: 48px;
+    }
+
+    .author-box-name {
+        font-size: var(--font-md);
+    }
+
+    .author-box-desc {
+        font-size: var(--font-sm);
+        margin-bottom: var(--spacing-sm);
+    }
+
+    .btn-icon.circle {
+        width: 32px;
+        height: 32px;
+    }
+
+    .btn-icon.circle svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media (max-width: 360px) {
+    .post-title {
+        font-size: 1.25rem;
+    }
+
+    .post-content {
+        font-size: var(--font-xs);
+    }
+
+    .post-hero-image {
+        max-height: 200px;
+    }
+}
