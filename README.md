@@ -1,12 +1,1 @@
-# Blogza
-# Blogza
-# Blogza
-# myblogza
-# myblogza
-# blogza
-# blogza
-# blogza
-# blog
-# blog
-# blogza
-# 1st-blog
+# blogs
