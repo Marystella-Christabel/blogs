@@ -1,7 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { logout } from '../store/authSlice';
-import { User, LogIn, Menu, X, BookOpen, LogOut } from 'lucide-react';
+import { LogIn, Menu, X, BookOpen, LogOut } from 'lucide-react';
 import { useState } from 'react';
 import './Navbar.css';
 
