@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import PostCard from '../components/PostCard';
+import PostCard from '../Components/PostCard';
 import { TrendingUp, Activity, Star } from 'lucide-react';
 import './Home.css';
 

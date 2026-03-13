@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import PostCard from '../components/PostCard';
+import PostCard from '../Components/PostCard';
 import { Settings, MapPin, Link as LinkIcon, Calendar } from 'lucide-react';
 import './Profile.css';
 

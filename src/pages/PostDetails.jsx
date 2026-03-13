@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { toggleLike } from '../store/postsSlice';
-import CommentSection from '../components/CommentSection';
+import CommentSection from '../Components/CommentSection';
 import { Calendar, Clock, Share2, Heart, Bookmark } from 'lucide-react';
 import './PostDetails.css';
 
